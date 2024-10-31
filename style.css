@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh; /* Висота на повну висоту вікна */
+    margin: 0; /* Убираємо стандартні відступи */
+    font-family: Arial, sans-serif; /* Вибір шрифту */
+    background: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#user{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.generate{
+    width:200px;
+}
+#generateBut{
+    width:100%;
+}
+img{
+    width:100px;
+    height: 100px;
+}
+p{
+    text-align: center;
+}
+#name1{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#name2{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#finish{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scoreNum1{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scoreNum2{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#generateBut{
+    background: green;
+    color:black;
+}
